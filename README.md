@@ -1,2 +1,2 @@
 # paged-angular-sample
-This is an demo for pagination in a content. 
+This is a demo for pagination in a content. 
