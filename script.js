@@ -1,3 +1,4 @@
+//var include the directives the ui-bootstrap
 var todos = angular.module('todos', ['ui.bootstrap']);
 
 todos.controller('TodoController', function($scope) {
