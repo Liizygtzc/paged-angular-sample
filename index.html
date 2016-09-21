@@ -4,6 +4,7 @@
 
   <head>
     <link data-require="bootstrap-css@2.3.2" data-semver="2.3.2" rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" />
+   
     <script data-require="angular.js@1.1.5" data-semver="1.1.5" src="http://code.angularjs.org/1.1.5/angular.min.js"></script>
     <script data-require="angular-ui-bootstrap@0.3.0" data-semver="0.3.0" src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.3.0.min.js"></script>
     <link rel="stylesheet" href="style.css" />
@@ -15,8 +16,10 @@
   <body ng-controller="TodoController">
     <h1>Ejemplo de paginado con AngularJS</h1>  
     <p>Aquí irá el ejemplo del paginado</p>
+<!--
     <h1>Todos</h1>
     <h4>{{todos.length}} remain</h4>
+-->    
     <ul>
       <li ng-repeat="todo in filteredTodos">{{todo.phone}}</li>
     </ul>
